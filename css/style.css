@@ -30,14 +30,32 @@ li {
   font-size: 12px;
 }
 
+.image {
+  width: 182px;
+  padding: 0 25px;
+}
+
 h1 {
   font-size: 36px;
   font-weight: 700;
+  letter-spacing: -1px;
+  padding: 0 25px;
+  margin: 0;
+  color: #151515;
 }
 
 p {
   font-size: 16px;
   font-weight: 400;
+  padding: 0 25px;
+  color: #151515;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 25px;
+  color: #151515;
 }
 
 footer {
