@@ -30,6 +30,33 @@ li {
   font-size: 12px;
 }
 
+.hero {
+  background-image: url("../images/article-image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.hero-date,
+.hero-title,
+.hero-p {
+  color: #ffffff;
+  padding: 0 25px;
+  margin: 0;
+}
+
+.hero-date {
+  padding-top: 85px;
+  font-size: 12px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
 .image {
   width: 182px;
   padding: 0 25px;
