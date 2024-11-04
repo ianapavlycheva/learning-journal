@@ -49,6 +49,7 @@ li {
 .hero-date {
   padding-top: 85px;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .hero-title {
@@ -83,6 +84,23 @@ h2 {
   font-weight: 700;
   padding: 0 25px;
   color: #151515;
+}
+
+.article-date {
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.article-title {
+  font-size: 24px;
+  color: #141414;
+  margin: 0;
+}
+
+.article-preview {
+  color: #505050;
 }
 
 footer {
