@@ -30,6 +30,16 @@ li {
   font-size: 12px;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 footer {
   height: 100px;
   background-color: #202020;
