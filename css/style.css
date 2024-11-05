@@ -10,13 +10,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.56em;
+  padding: 0 1.25em;
   margin: 0;
 }
 
 .logo {
   height: 1.6em;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -35,27 +36,46 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 0 1.56em; */
   height: 18.75em;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-align: left;
 }
 
 .hero-date,
 .hero-title,
 .hero-p {
   color: #ffffff;
-  padding: 0 1.56em;
   margin: 0;
 }
 
 .hero-date {
-  padding-top: 5.31em;
   font-size: 0.75rem;
   text-transform: uppercase;
+  margin-bottom: 0.5em;
+  padding-left: 1.5em;
 }
 
 .hero-title {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: -1px;
+  margin: 0.5em 0.5em;
+  padding-left: 0.25em;
+}
+
+.hero-p {
+  font-size: 1rem;
+  padding-left: 1.5em;
 }
 
 .image {
