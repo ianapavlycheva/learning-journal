@@ -10,7 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.25em;
+  padding: 0 1.5em;
   margin: 0;
 }
 
@@ -39,7 +39,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 0 1.56em; */
   height: 18.75em;
 }
 
@@ -47,7 +46,6 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   text-align: left;
 }
 
@@ -62,11 +60,11 @@ li {
   font-size: 0.75rem;
   text-transform: uppercase;
   margin-bottom: 0.5em;
-  padding-left: 1.5em;
+  padding-left: 2em;
 }
 
 .hero-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: -1px;
   margin: 0.5em 0.5em;
