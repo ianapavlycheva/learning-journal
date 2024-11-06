@@ -47,6 +47,10 @@ a {
   color: inherit;
 }
 
+main {
+  flex: 1; /* This will push the footer to the bottom */
+}
+
 /* Hero Section */
 .hero {
   background-image: url("../images/article-image-hero.jpg");
