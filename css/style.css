@@ -194,4 +194,31 @@ footer {
   .posts-container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  header {
+    height: 5em;
+    padding: 1.75em 5em;
+  }
+
+  .logo {
+    height: 2em;
+  }
+  li {
+    font-size: 1rem;
+  }
+  .hero-date {
+    margin-left: 4.125em;
+  }
+
+  .hero-title {
+    margin-left: 2.01em;
+  }
+
+  .hero-p {
+    margin-left: 3.125em;
+  }
+
+  .posts-container {
+    margin: 3.125em;
+  }
 }
